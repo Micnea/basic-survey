@@ -1,0 +1,191 @@
+.everything{
+    text-align: center;
+    background-color: rgb(147, 201, 193);
+    font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+.form{
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.p{
+    width: 49%;
+    text-align: right;
+    display: inline-block;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.chestii{
+    width: 49%;
+    text-align: left;
+    display: inline-block;
+}
+.list{
+    list-style-type: none;
+    padding-inline-start: 0px;
+    display: inline-block;
+    text-align: left;
+    width: 49%;
+}
+.oof{
+    width: 49%;
+    text-align: right;
+    display: inline-block;
+    padding: 5px;
+    margin-inline-start: 0px;
+    padding-inline-start: 0px;
+}
+.text input{
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+    border: 2px solid lightgrey;
+    margin: 10px;
+    margin-inline-end: 191px;
+}
+.bum{
+    width: 49%;
+    display: inline-block;
+    text-align: left;
+    margin-block-start: 5px;
+}
+.ocupation{
+    width: 200px;
+    height: 30px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+/*   MEDIA   */
+
+@media screen and (max-width:1024px){
+    .form{
+        background-color: white;
+        padding: 10px;
+        border-radius: 4px;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .oof{
+        width: 35%;
+        text-align: right;
+        display: inline-block;
+        padding: 5px;
+        padding-inline-start: 0px;
+
+    }
+    .chestii{
+        width: 25%;
+        text-align: left;
+        display: inline-block;
+        margin: 2%;
+    }
+    .text input{
+        height: 20px;
+        width: 160px;
+        padding: 5px;
+        border: 2px solid lightgrey;
+        margin: 5px;
+        margin-inline-end: 5%;
+        margin: 2%;
+    }
+    .bum{
+        width: 35%;
+        display: inline-block;
+        text-align: left;
+        margin-block-start: 5px;
+        vertical-align: top;
+        margin: 2%;
+    }
+    .list{
+        list-style-type: none;
+        padding-inline-start: 0px;
+        display: inline-block;
+        text-align: left;
+        width: 39%;
+        margin: 2%;
+    }
+    .p{
+        width: 39%;
+        text-align: right;
+        display: inline-block;
+        padding: 5px;
+        vertical-align: top;
+        margin-top: 10px;
+        margin: 2%;
+    }
+    .ocupation{
+        width: 150px;
+        height: 30px;
+
+    }
+    .right-input{
+        width: 40%;
+
+    }
+}
+
+
+@media screen and (max-width:716px){
+    .oof{
+        width: 100%;
+        text-align: left;
+        padding: 5px;
+        padding-inline-start: 0px;
+    }
+    .text{
+        text-align: left;
+    }
+    .text input{
+        height: 20px;
+        width: 160px;
+        padding: 5px;
+        border: 2px solid lightgrey;
+        margin: 5px;
+        margin-inline-end: 5%;
+    }
+    .chestii{
+        text-align: left;
+        display: inline-block;
+        margin: 0;
+    }
+    .question{
+        text-align: left;
+        margin-top: 5%;
+    }
+    .radio-button{
+        text-align: left;
+        margin-top: 5%;
+    }
+    .p{
+        text-align: left;
+        margin-top: 5%;
+        display: block;
+        width: 98%;
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        margin-top: 2%;
+    }
+    .checkbox{
+        text-align: left;
+    }
+    .list{
+        width: 100%;
+    }
+    .bum{
+        text-align: left;
+        width: 100%;
+    }
+    .suggestion{
+        text-align: left;
+    }
+}

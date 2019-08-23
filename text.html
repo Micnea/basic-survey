@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title >survey form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="everything">
+    <h1 class="title">Survey Form</h1>
+    <div class="description">
+       <form class="form">
+            <p>Let us know how we can improve freeCodeCamp</p>
+           <div class="text">
+               <div class="oof">
+                    <label>*Name:</label>
+                </div>
+               <input type="text" name="name" class="chestii" placeholder="Enter your name">
+               <div class="oof">
+                   <label>*Email:</label>
+               </div>
+                <input type="text" name="mail" class="chestii" placeholder="Enter your email">
+                <div class="oof">
+                    <label>*Age:</label>
+                </div>
+                <input type="text" name="age" class="chestii" placeholder="Enter your age">
+           </div>
+            <div class="question">
+                <div class="oof">
+                    <label>Which option best describes your current role?</label>
+                </div>
+                <div class="bum">
+                    <select name="ocupation" class="ocupation chestii">
+                        <option value="Select-an-option" disabled selected>Select an option</option>
+                        <option value="Student" >Student</option>
+                        <option value="Full-time-job">Full Time Job</option>
+                        <option value="Full-time-learner">Full Time Learner</option>
+                        <option value="Prefer-not-to-say">Prefer not to say</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                
+            </div>
+            
+            <div class="radio-button">
+                <div class="p">
+                    <label>* How likely is that you would recommend freeCodeCamp to a friend?</label>
+                </div>
+                <div class="right-input list chestii">
+                    <ul>
+                        <li>
+                            <label for="Definetly">
+                                <input type="radio" name="recommendation" value="Definetly">
+                            <span>Definetly</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="Maybe">
+                                <input type="radio" name="recommendation" value="Maybe">
+                            <span>Maybe</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="Not-Sure">
+                                <input type="radio" name="recommendation" value="Not sure">
+                            <span>Not sure</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="other question">
+                <div class="oof">
+                    <label> What do you like most in FCC:</label>
+                </div>
+                <div class="bum">
+                    <select name="improvement" class="chestii ocupation" width:200px;>
+                            <option value="Select-an-option" >Select an option</option>
+                            <option value="Challenges" >Challenges</option>
+                            <option value="Projects" >Projects</option>
+                            <option value="Community" >Community</option>
+                            <option value="Open-Source" >Open Source</option>
+                    </select>
+                </div>
+                
+            </div>
+            <div class="checkbox">
+                <div class="p">
+                    <label>Things that should be improved in the future (Check all that apply):</label>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li>
+                            <label for="Front">
+                                <input type="checkbox" name="Front" value="Front-end-Projects" >
+                                <span>Front-end Projects</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="Back">
+                                <input type="checkbox" name="Back" value="Back-end-Projects" >
+                                <span>Back-end Projects</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="data">
+                                <input type="checkbox" name="Data" value="Data-Visualization" >
+                                <span>Data Visualization</span>
+                                </label>
+                        </li>
+                        <li>
+                            <label for="Challenges">
+                                <input type="checkbox" name="Challenges" value="Challenges" >
+                                <span>Challenges</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="Open">
+                                <input type="checkbox" name="Open" value="Open-Source-Community" >
+                                <span>Open Source Community</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="Gitter">
+                                    <input type="checkbox" name="Gitter" value="Gitter-help-rooms" >
+                                <span>Gitter help rooms</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="Videos">
+                                    <input type="checkbox" name="Videos" value="Videos" >
+                                <span>Videos</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="City">
+                                    <input type="checkbox" name="City" value="City-Meetups" >
+                                <span> City Meetups</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="Wiki">
+                                    <input type="checkbox" name="Wiki" value="Wiki" >
+                                <span>Wiki</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="Forum">
+                                    <input type="checkbox" name="Forum" value="Forum" >
+                                <span>Forum</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="Additional">
+                                <input type="checkbox" name="Additional" value="Additional-Courses" >
+                                <span>Additional Courses</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="suggestion">
+                <div class="p">
+                    <label> Any Comments or Suggestions?</label>
+                </div>
+                <div class="bum">
+                        <textarea name="suggestion" id="textarea" style="height: 90px;resize: vertical;width: 90%;"></textarea>
+                </div>
+                    
+            </div>
+            <div class="submit">
+                <input type="submit" name="submit-button">
+            </div>
+       </form>
+
+    </div>
+</body>
+</html>
